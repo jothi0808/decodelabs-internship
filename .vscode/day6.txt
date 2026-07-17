@@ -1,0 +1,21 @@
+<meta charset="utf-8"= for different
+
+Unicode transformation format=8 bits
+
+<meta name="viewport" content="width=device-width,initial-scale=1.p"> for different scale size
+
+1.0=100%
+
+0.9=?
+
+
+
+main div=position=main1
+
+sub div1=position absolute=sub11
+sub div2=position absolute=sub12
+sub div3=position absolute=sub13
+sub div4=position absolute=sub14
+
+
+

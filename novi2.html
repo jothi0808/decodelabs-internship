@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+    <title>Document</title>
+<style>
+    body{
+        background-color:blue;
+        width:0px;
+ 
+    }
+    .first{
+        position:relative
+        width:90vw;
+        height:40vh
+        background-color:grey;
+    }
+    .f1{
+        z-index:1;
+        display:flex'
+        align-items :centre;
+        position:absolute;
+        left:1vh;
+        right:1vw;
+        width:25vw;
+    height:35vh;
+    background-color:blue;
+    }
+    .f2{
+        width:25vw;
+    height:35vh;
+    background-color:grey;
+    }
+    .f3{
+        display:flex;
+        align-items:center;
+        justify-content:center
+         width:25vw;
+         height:35vh;
+         align-items:centre;
+    background-color:blue;
+}
+second{
+    position:absolute;
+    top:25vh;
+    left:25vw;
+    width: 50vw;
+    height: 80vh;
+    background-color:honeydew;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border-radius:25vh;
+}
+.s1{
+    transition: all 0.5s ease in-out;
+    transform:scale(5 0);
+    position:absolute;
+    top:25vh;
+    left:25vw;
+    width: 50vw;
+    height: 80vh;
+    background-color:honeydew;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.second:hover{
+    transform: scale(1.0);
+    top:10vh;
+    right:5vw;
+}
+input{
+    display:block;
+    width: 35vw;
+    height:5vh;
+    margin-bottom:3vh;
+    border:silver solid 2px;
+    border-radius:20px;
+    background-color:gold
+
+
+}
+button{
+    width:15vw;
+    height:5vh;
+    background-color:linear-gradient(to left,black,red);
+    color:ghostwhite;
+    font-size:large;
+    gradient: linear-gradient(to left,black,red);
+
+}
+::placeholder{
+    font-size:medium;
+    color:black;
+    padding:50px;
+}
+.main image{
+    width:150vw;
+    height:200vh;
+    position:absolute;
+    top:2vh;
+    bottom:10vh;
+}
+
+</style>
+</head>
+<body>
+    <img src="https://m.media-amazon.com/images/M/MV5BZWZhMDRlZWMtN2Y5MS00MTY5LTgwMmYtOGU0MjA3NDk1NWFlXkEyXkFqcGc@._V1_.jpg" alt="image">
+    <div class="first">
+        <div class="f1">
+
+        </div>
+        <div class="f2">
+        </div>
+        <div class="f3">
+        </div>
+    </div>
+    <div class="second">
+        <div>
+            <img src="https://i.pinimg.com/736x/27/0f/22/270f226ef5bab63cf7874d67c9da812f.jpg" alt="main image">
+        </div>
+        <div class ="s1">
+            <h2>join your clans</h2>
+            <form>
+                <input type="text" placeholder="enter name">
+                <input type="number" placeholder="enter number">
+                <input type="date" placeholder="enter date">
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
