@@ -1,29 +1,24 @@
 # DecodeLabs Internship
 
-This repository contains practice projects and exercises completed during my internship at DecodeLabs, covering front-end web development with HTML, CSS, and JavaScript.
+This repository contains a practice project completed during my internship at DecodeLabs, covering front-end web development with HTML, CSS, and JavaScript.
 
 ## 📂 Project Structure
 
 | File | Description |
 |------|-------------|
-| `decodeindex2.html` | Practice page built during the DecodeLabs sessions |
-| `internindex.html` | Internship index/practice page |
-| `novi2.html`, `novi5.html`, `novicode2.html` | Practice exercises (Novi series) |
-| `noviindex.html` | Index page for Novi practice files |
-| `shopping.html`, `shoppingindex.html` | Shopping page project (UI practice) |
-| `code.css`, `stylecode.css`, `shcss.js` | Stylesheets and supporting scripts |
-| `decodeserver.js`, `decodeserver2.js` | Basic server-side scripts |
+| `internindex.html` | Main practice/index page for the internship project |
+| `stylecode.css` | Stylesheet for the project |
+| `shcss.js` | JavaScript file for interactivity/styling logic |
 
 ## 🛠️ Tech Stack
 
 - HTML5
 - CSS3
 - JavaScript
-- Node.js (for server files)
 
 ## 🎯 Purpose
 
-This repo tracks my learning progress during the internship — including UI building, styling practice, and basic scripting/server exercises.
+This repo tracks my learning progress during the DecodeLabs internship, focused on building and styling a web page with interactive elements.
 
 ## 🚀 How to Use
 
@@ -31,11 +26,7 @@ This repo tracks my learning progress during the internship — including UI bui
    ```bash
    git clone https://github.com/jothi0808/decodelabs-internship.git
    ```
-2. Open any `.html` file directly in your browser to view the page.
-3. For `.js` server files, run with Node.js:
-   ```bash
-   node decodeserver.js
-   ```
+2. Open `internindex.html` directly in your browser to view the page.
 
 ## 👤 Author
 
